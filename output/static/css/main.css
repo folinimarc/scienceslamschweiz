@@ -1,0 +1,64 @@
+:root {
+    --background-color-body: #FFF;
+    --background-color-elements: #F00000;
+    --font-color-nav: #F00000;
+    --font-color-header: #FFF;
+    --font-color-landing: #000;
+    --font-color-default: #000;
+}
+
+/*--- 
+Generic 
+---*/
+
+body {
+    color: var(--font-color-default);
+    background-color: var(--background-color-body);
+}
+
+.title-strip {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 0px;
+    text-align: center;
+    background-color: var(--background-color-elements);
+    color: var(--font-color-header);
+    fill: var(--font-color-header);
+    display: block;
+}
+
+/*--- 
+Utility 
+---*/
+
+.no-underline {
+    text-decoration: none !important;
+}
+
+/*--- 
+Navigation 
+---*/
+
+.navbar {
+    border-bottom: 1px solid var(--font-color-nav) !important;
+    background-color: var(--background-color-body);
+}
+
+#navbar-logo>img {
+    max-width: 108px;
+    padding: 8px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: var(--font-color-nav) auto 5px !important;
+}
+
+.nav-link, .nav-link:hover, .nav-link:visited {
+    color: var(--font-color-nav) !important;
+}
+
+.nav-link:active {
+    color: var(--font-color-nav) !important;
+    text-decoration: underline;
+}
