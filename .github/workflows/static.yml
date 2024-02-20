@@ -36,7 +36,11 @@ jobs:
           python-version: '3.9'
           cache: 'pip' # caching pip dependencies
       - run: pip install -r requirements.txt
-      - run: python render.py
+      - shell: bash
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+        run: |
+          python render.py
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
