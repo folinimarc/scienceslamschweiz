@@ -14,10 +14,10 @@ def _filter_events(events_data):
     return valid
 
 def _filter_organisers(organisers_data):
-    """Organisers must have a name, latitude, longitude, website."""
+    """Organisers must have a name."""
     valid = []
     for entry in organisers_data:
-        if entry.get('name') and entry.get('latitude') and entry.get('longitude') and entry.get('website'):
+        if entry.get('name'):
             valid.append(entry)
     return valid
 
