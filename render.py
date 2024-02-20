@@ -11,7 +11,7 @@ def main():
     
     # Read the name of all yaml files in content directory, which indicate the languages.
     # Do this only once, as the languages are the same for all pages.
-    languages = set(p.stem for p in Path('./content').glob('*.yaml'))
+    languages = [p.stem for p in Path('./content').glob('*.yaml')]
 
     # Read events and organiser data from Google Sheets. 
     # These lists are language independent, so we only need to read them once.
@@ -43,6 +43,11 @@ def main():
 
     # Copy static files to output
     shutil.copytree('./static', './output/static', dirs_exist_ok=True)
+
+    # Write a dummy index.html to output root that redirects to german if available, otherwise to the first language.
+    with open('./output/index.html', 'w', encoding='utf-8') as f:
+        inital_language = "de" if "de" in languages else languages[0]
+        f.write(f'<meta http-equiv="refresh" content="0; url=./{inital_language}">')
     
 
 if __name__ == "__main__":
