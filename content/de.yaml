@@ -3,6 +3,53 @@ head:
     meta:
         description: Das Netzwerk Science Slam Schweiz engagiert sich ehrenamtlich für die Förderung der Science Slam Kultur in der Schweiz durch Vernetzung der lokalen OrganisatorInnen und Kontaktpflege mit Deutschland und Österreich.
         keywords: ScienceSlam, Science, Slam, Science Slam Schweiz, Wissenschaftskommunikation, Wissenschaft, Kommunikation, Netzwerk, Vernetzung
-landing:
-    title: "Netzwerk<br>Science Slam Schweiz"
+header:
+    img:
+        path: "content/img/logo_nav.png"
+        alt: "Logo Science Slam Schweiz"
+        classes: "img-fluid"
+        
+events_and_organisers:
+    card_1:
+        title: "Nächste Veranstaltungen"
+        img:
+            path: "content/img/9_scsl_kishan.jpg"
+            alt: "Der Gewinner des 9. Science Slam Zürich Kishan Thodkar."
+            classes: "img-fluid"
+    card_2:
+        title: "Hier wird Science Slam gelebt"
+        img:
+            path: "content/img/6_scsl_oliver.jpg"
+            alt: "Oliver Marchand präsentiert am 6. Science Slam seine Adaptionen bekannter Hits, die er auf die Klimaproblematik zugeschnitten hat, und rockt sich damit in die Herzen des Publikums."
+            classes: "img-fluid"
+
+scienceslam:
+    section_title: "Was ist Science Slam?"
+    card_1: 
+        title: "Science Slam ist ein Wettkampf"
+        text: "Mehrere SlammerInnen treten in einem wissenschaftlichen Kurzvortragsturnier gegeneinander an, wobei alle Hilfsmittel erlaubt sind. Am Schluss entscheidet das Publikum über den Champion des Abends."
+        img: 
+            path: "content/img/9_scsl_finalistinnen.jpg"
+            alt: "Die Slammerinnen Lisa Felsenstein, Tanja Dallafior und Jasmin Barman-Aksözen (v.l.n.r) warten am 9. Science Slam Zürich gespannt darauf, wer von ihrem Block ins Finale einziehen darf."
+            classes: "img-fluid"
+    card_2: 
+        title: "Science Slam ist die neue Art der Wissenschaftskommunikation"
+        text: "Ein Science Slam ist die ideale Gelegenheit sich mit dem eigenen Themengebiet auf eine völlig andere Art und Weise auseinander zu setzten und faszinierende Konzepte und Ideen vor einem begeisterten Publikum auf den Punkt zu bringen."
+        img:
+            path: "content/img/6_scsl_henry.jpg"
+            alt: "Henry Wöhrnschimmel am 6. Science Slam Zürich."
+            classes: "img-fluid"
+network:
+    section_title: "Netzwerk Science Slam Schweiz"
+    card_1:
+        title: "Vision"
+        text: "Unser Ziel ist es, die Science Slam Kultur in der Schweiz zu fördern, indem wir uns für die Vernetzung und den Austausch innerhalb der Szene und darüber hinaus einsetzen. Zudem unterstützen wir SlammerInnen und OrganisatorInnen nach Bedarf und stehen als erste Anlaufstelle für Fragen zur Verfügung."
+        img:
+            path: "content/img/8_scsl_lineup.jpg"
+            alt: "Das fantastische Line-Up am 8. Science Slam Zürich begeisterte die Zuschauer und machte den Abend unvergesslich!"
+            classes: "img-fluid"
+
+
+
+
     

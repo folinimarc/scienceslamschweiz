@@ -2,23 +2,27 @@
 <html lang="de">
 
 <head>
-    <!-- Required meta tags -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- SEO Meta Tags -->
-<meta name="description" content="Das Netzwerk Science Slam Schweiz engagiert sich ehrenamtlich für die Förderung der Science Slam Kultur in der Schweiz durch Vernetzung der lokalen OrganisatorInnen und Kontaktpflege mit Deutschland und Österreich.">
-<meta name="keywords" content="ScienceSlam, Science, Slam, Science Slam Schweiz, Wissenschaftskommunikation, Wissenschaft, Kommunikation, Netzwerk, Vernetzung">
-<meta name="author" content="Marc Folini">
-
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Science Slam Schweiz">
-<meta property="og:type" content="website">
-<meta property="og:description" content="Das Netzwerk Science Slam Schweiz engagiert sich ehrenamtlich für die Förderung der Science Slam Kultur in der Schweiz durch Vernetzung der lokalen OrganisatorInnen und Kontaktpflege mit Deutschland und Österreich.">
-<meta property="og:image" content="https://example.com/og-image.jpg">
-<meta property="og:url" content="https://scienceslamschweiz.ch">
-<meta property="og:site_name" content="Science Slam Schweiz">
     <title>Science Slam Schweiz</title>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Das Netzwerk Science Slam Schweiz engagiert sich ehrenamtlich für die Förderung der Science Slam Kultur in der Schweiz durch Vernetzung der lokalen OrganisatorInnen und Kontaktpflege mit Deutschland und Österreich.">
+    <meta name="keywords" content="ScienceSlam, Science, Slam, Science Slam Schweiz, Wissenschaftskommunikation, Wissenschaft, Kommunikation, Netzwerk, Vernetzung">
+    <meta name="author" content="Marc Folini">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Science Slam Schweiz">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Das Netzwerk Science Slam Schweiz engagiert sich ehrenamtlich für die Förderung der Science Slam Kultur in der Schweiz durch Vernetzung der lokalen OrganisatorInnen und Kontaktpflege mit Deutschland und Österreich.">
+    <meta property="og:image" content="https://example.com/og-image.jpg">
+    <meta property="og:url" content="https://scienceslamschweiz.ch">
+    <meta property="og:site_name" content="Science Slam Schweiz">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="../static/favicon.png">
 
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -28,69 +32,223 @@
     <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script defer src="../static/js/main.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <div id="topOfPage"></div>
-<nav class="navbar sticky-top navbar-expand-md">
-  <div class="container">
-    <a id="navbar-logo" class="navbar-brand js-scroll-trigger" href="#topOfPage">
-      <img src="../static/img/logo_nav.png" alt="Navigation home">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div id="navbarResponsive" class="fs-4 navbar-collapse collapse">
-      <ul class="navbar-nav ms-auto text-end">
-        <li class="nav-item my-auto ms-2">
-          <a class="nav-link js-scroll-trigger" href="#">Science Slam</a>
-        </li>
-        <li class="nav-item my-auto ms-2">
-          <a class="nav-link js-scroll-trigger" href="#">Netzwerk</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-    <!-- Landing -->
+    <!-- Header -->
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <h1>Netzwerk<br>Science Slam Schweiz</h1>
+        <div id="topOfPage"></div>
+        <div class="row color-1 bg-color-2 py-3">
+            <div id="header-logo" class="col-auto">
+                <img src="../static/img/logo_nav.png" alt="Logo Science Slam Schweiz" class="img-fluid">
             </div>
-            <div class="col-12 col-md-6">
-                <img src="../static/img/logo-320w.jpg" 
-                    srcset="../static/img/logo-320w.jpg 320w, 
-                            ../static/img/logo-480w.jpg 480w, 
-                            ../static/img/logo-640w.jpg 640w, 
-                            ../static/img/logo-768w.jpg 768w, 
-                            ../static/img/logo-992w.jpg 992w" 
-                    sizes="(max-width: 575.98px) 100vw, 
-                            (max-width: 767.98px) 100vw, 
-                            (max-width: 991.98px) 50vw, 
-                            (max-width: 1199.98px) 50vw, 
-                            100vw" 
-                    alt="Das Netzwerk Science Slam Schweiz engagiert sich ehrenamtlich für die Förderung der Science Slam Kultur in der Schweiz durch Vernetzung der lokalen OrganisatorInnen und Kontaktpflege mit Deutschland und Österreich.">
+            <div class="col ms-2 my-auto">
+                <div class="fs-3">Science Slam Schweiz</div>
+                <div>
+                    
+                        
+                        <a class="link" href="../en/">EN</a>
+                    
+                        
+                        <span class="color-1"> | </span>
+                        
+                        <a class="link" href="../fr/">FR</a>
+                    
+                        
+                        <span class="color-1"> | </span>
+                        
+                        <a class="link" href="../it/">IT</a>
+                    
+                </div>
             </div>
         </div>
     </div>
-    
+    <div class="mb-2 container-fluid underline-color-1">
+    </div>
+
+    <!-- Section: Events and organisers  -->
+    <div class="container">
+        <div class="row color-3 bg-color-3 mb-2">
+    <div class="col-12 col-lg-6 p-0 position-relative">
+            <img srcset="../static/img/9_scsl_kishan-320w.jpg 320w, ../static/img/9_scsl_kishan-480w.jpg 480w, ../static/img/9_scsl_kishan-640w.jpg 640w, ../static/img/9_scsl_kishan.jpg 720w" sizes="(min-width: 992px) 50vw, 100vw" alt="Der Gewinner des 9. Science Slam Zürich Kishan Thodkar." class="img-fluid">
+        <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
+            <span class="color-2">Der Gewinner des 9. Science Slam Zürich Kishan Thodkar.</span>
+        </div>
+    </div>
+    <div class="col-12 col-lg-6 overflow-auto align-col-height-with-row-img">
+        <div class="p-2">
+            <div class="fs-3 pb-3 fw-light fst-italic">Nächste Veranstaltungen</div>
+            
+            <div class="mb-3 d-flex align-items-center">
+                <b>24.05.24</b>
+                
+                <a href="https://thefluffingtonpost.com/" target="_blank" class="link ms-3">5th ScienceSlam Bern</a>
+                
+                
+                <div class="ms-auto">
+                    <span class="ms-3 badge bg-dark">Looking for slammers</span>
+                </div>
+                
+            </div>
+            
+            <div class="mb-3 d-flex align-items-center">
+                <b>07.08.24</b>
+                
+                <span class="ms-3">Olten</span>
+                
+                
+                <div class="ms-auto">
+                    <span class="ms-3 badge bg-dark">Looking for slammers</span>
+                </div>
+                
+            </div>
+            
+            <div class="mb-3 d-flex align-items-center">
+                <b>13.01.25</b>
+                
+                <a href="https://xkcd.com/" target="_blank" class="link ms-3">Genf</a>
+                
+                
+                <div class="ms-auto">
+                    <span class="ms-3 badge bg-dark">Looking for slammers</span>
+                </div>
+                
+            </div>
+            
+            <div class="mb-3 d-flex align-items-center">
+                <b>08.02.25</b>
+                
+                <span class="ms-3">Test</span>
+                
+                
+            </div>
+            
+            <div class="mb-3 d-flex align-items-center">
+                <b>06.06.24</b>
+                
+                <span class="ms-3">Cats Slam Fribourg!</span>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+    </div>
+
+    <!-- Section: What is science slam?  -->
+    <div class="fs-1 fst-italic fw-bold container-fluid color-2 bg-color-1 py-2 mb-2 text-center">
+        Was ist Science Slam?
+    </div>
+
+    <div class="container">
+        <div class="row color-3 bg-color-3 mb-2">
+            <div class="col-12 col-lg-6 p-0 position-relative">
+                <img srcset="../static/img/9_scsl_finalistinnen-320w.jpg 320w, ../static/img/9_scsl_finalistinnen-480w.jpg 480w, ../static/img/9_scsl_finalistinnen-640w.jpg 640w, ../static/img/9_scsl_finalistinnen-768w.jpg 768w, ../static/img/9_scsl_finalistinnen-992w.jpg 992w, ../static/img/9_scsl_finalistinnen-1200w.jpg 1200w, ../static/img/9_scsl_finalistinnen-1400w.jpg 1400w, ../static/img/9_scsl_finalistinnen.jpg 1500w" sizes="(min-width: 992px) 50vw, 100vw" alt="Die Slammerinnen Lisa Felsenstein, Tanja Dallafior und Jasmin Barman-Aksözen (v.l.n.r) warten am 9. Science Slam Zürich gespannt darauf, wer von ihrem Block ins Finale einziehen darf." class="img-fluid">
+                <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
+                    <span class="color-2">Die Slammerinnen Lisa Felsenstein, Tanja Dallafior und Jasmin Barman-Aksözen (v.l.n.r) warten am 9. Science Slam Zürich gespannt darauf, wer von ihrem Block ins Finale einziehen darf.</span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 order-lg-first overflow-auto align-col-height-with-row-img">
+                <div class="p-2">
+                    <div class="fs-3 pb-2 fw-light fst-italic">Science Slam ist ein Wettkampf</div>
+                    <div>Mehrere SlammerInnen treten in einem wissenschaftlichen Kurzvortragsturnier gegeneinander an, wobei alle Hilfsmittel erlaubt sind. Am Schluss entscheidet das Publikum über den Champion des Abends.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row color-3 bg-color-3 mb-2">
+            <div class="col-12 col-lg-6 p-0 position-relative">
+                <img srcset="../static/img/6_scsl_henry-320w.jpg 320w, ../static/img/6_scsl_henry-480w.jpg 480w, ../static/img/6_scsl_henry-640w.jpg 640w, ../static/img/6_scsl_henry.jpg 720w" sizes="(min-width: 992px) 50vw, 100vw" alt="Henry Wöhrnschimmel am 6. Science Slam Zürich." class="img-fluid">
+                <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
+                    <span class="color-2">Henry Wöhrnschimmel am 6. Science Slam Zürich.</span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 overflow-auto align-col-height-with-row-img">
+                <div class="p-2">
+                    <div class="fs-3 pb-2 fw-light fst-italic">Science Slam ist die neue Art der Wissenschaftskommunikation</div>
+                    <div>Ein Science Slam ist die ideale Gelegenheit sich mit dem eigenen Themengebiet auf eine völlig andere Art und Weise auseinander zu setzten und faszinierende Konzepte und Ideen vor einem begeisterten Publikum auf den Punkt zu bringen.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row color-3 bg-color-3 mb-2">
+    <div class="col-12 col-lg-6 p-0 position-relative">
+            <img srcset="../static/img/6_scsl_oliver-320w.jpg 320w, ../static/img/6_scsl_oliver-480w.jpg 480w, ../static/img/6_scsl_oliver-640w.jpg 640w, ../static/img/6_scsl_oliver-768w.jpg 768w, ../static/img/6_scsl_oliver-992w.jpg 992w, ../static/img/6_scsl_oliver-1200w.jpg 1200w, ../static/img/6_scsl_oliver-1400w.jpg 1400w, ../static/img/6_scsl_oliver.jpg 1500w" sizes="(min-width: 992px) 50vw, 100vw" alt="Oliver Marchand präsentiert am 6. Science Slam seine Adaptionen bekannter Hits, die er auf die Klimaproblematik zugeschnitten hat, und rockt sich damit in die Herzen des Publikums." class="img-fluid">
+        <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
+            <span class="color-2">Oliver Marchand präsentiert am 6. Science Slam seine Adaptionen bekannter Hits, die er auf die Klimaproblematik zugeschnitten hat, und rockt sich damit in die Herzen des Publikums.</span>
+        </div>
+    </div>
+    <div class="col-12 col-lg-6 order-lg-first overflow-auto align-col-height-with-row-img">
+        <div class="p-2">
+            <div class="fs-3 pb-3 fw-light fst-italic">Hier wird Science Slam gelebt</div>
+            
+            <div class="mb-3 d-flex align-items-center">
+                
+                <a href="https://www.kulturzueri.ch/db/veranstaltungen/science-slam-im-kosmos/" target="_blank" class="link">ScienceSlam Zürich</a>
+                
+            </div>
+            
+            <div class="mb-3 d-flex align-items-center">
+                
+                <a href="https://www.facebook.com/scienceslam.unibern/?locale=de_DE" target="_blank" class="link">ScienceSlam Bern</a>
+                
+            </div>
+            
+            <div class="mb-3 d-flex align-items-center">
+                
+                <a href="https://www.planetnatural.com/cutest-animals-in-the-world/" target="_blank" class="link">Cafe Scientifique Lausanne</a>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+    </div>
+
+    <!-- Section: Network  -->
+    <div class="fs-1 fst-italic fw-bold container-fluid color-2 bg-color-1 py-2 mb-2 text-center">
+        Netzwerk Science Slam Schweiz
+    </div>
+
+    <div class="container">
+        <div class="row color-3 bg-color-3 mb-2">
+            <div class="col-12 col-lg-6 p-0 position-relative">
+                <img srcset="../static/img/8_scsl_lineup-320w.jpg 320w, ../static/img/8_scsl_lineup-480w.jpg 480w, ../static/img/8_scsl_lineup-640w.jpg 640w, ../static/img/8_scsl_lineup.jpg 720w" sizes="(min-width: 992px) 50vw, 100vw" alt="Das fantastische Line-Up am 8. Science Slam Zürich begeisterte die Zuschauer und machte den Abend unvergesslich!" class="img-fluid">
+                <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
+                    <span class="color-2">Das fantastische Line-Up am 8. Science Slam Zürich begeisterte die Zuschauer und machte den Abend unvergesslich!</span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 overflow-auto align-col-height-with-row-img">
+                <div class="p-2">
+                    <div class="fs-3 pb-2 fw-light fst-italic">Vision</div>
+                    <div>Unser Ziel ist es, die Science Slam Kultur in der Schweiz zu fördern, indem wir uns für die Vernetzung und den Austausch innerhalb der Szene und darüber hinaus einsetzen. Zudem unterstützen wir SlammerInnen und OrganisatorInnen nach Bedarf und stehen als erste Anlaufstelle für Fragen zur Verfügung.</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
-    <h4 class="title-strip">
-        <a href="#topOfPage">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
-                class="bi bi-chevron-double-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z" />
-                <path fill-rule="evenodd"
-                    d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
-            </svg>
-        </a>
-    </h4>
+    <div class="container">
+        <div class="row py-3 mb-2">
+            <div class="col-3"></div>
+            <div class="col-6 bg-color-2 text-center">
+                <a href="#topOfPage" class="link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                        class="me-2 bi bi-chevron-double-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z" />
+                        <path fill-rule="evenodd"
+                            d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-3 p-0 my-auto text-end">
+                <button type="button" class="btn btn-sm btn-light bg-color-3" data-bs-toggle="popover" data-bs-content="Updated: 20.02.24<hr>This site does not make use of any cookies or tracking.<hr>scienceslamschweiz (at) gmail.com<hr>Marc Folini, Schlieren">Impressum</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
