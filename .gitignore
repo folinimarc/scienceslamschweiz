@@ -2,7 +2,7 @@
 **/.DS_Store
 
 # Render output directory
-/output
+output
 
 # Secret files for local development
 **/*secret*
