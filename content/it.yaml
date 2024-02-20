@@ -13,8 +13,8 @@ events_and_organisers:
     card_1:
         title: "Prossimi Eventi"
         img:
-            path: "content/img/9_scsl_kishan.jpg"
-            alt: "Il vincitore del 9° Science Slam Zurigo, Kishan Thodkar."
+            path: "content/img/9_scsl_finalistinnen.jpg"
+            alt: "Le slammer Lisa Felsenstein, Tanja Dallafior e Jasmin Barman-Aksözen (da sinistra a destra) aspettano con ansia di scoprire chi del loro gruppo avanzerà alla finale del 9° Science Slam Zurigo."
             classes: "img-fluid"
     card_2:
         title: "Dove si Vive lo Science Slam"
@@ -29,8 +29,8 @@ scienceslam:
         title: "Lo Science Slam è una Competizione"
         text: "Diversi slammer si sfidano in un torneo di brevi presentazioni scientifiche, dove sono ammessi tutti i mezzi. Alla fine, il pubblico decide il campione della serata."
         img: 
-            path: "content/img/9_scsl_finalistinnen.jpg"
-            alt: "Le slammer Lisa Felsenstein, Tanja Dallafior e Jasmin Barman-Aksözen (da sinistra a destra) aspettano con ansia di scoprire chi del loro gruppo avanzerà alla finale del 9° Science Slam Zurigo."
+            path: "content/img/9_scsl_kishan.jpg"
+            alt: "Il vincitore del 9° Science Slam Zurigo, Kishan Thodkar."
             classes: "img-fluid"
     card_2: 
         title: "Lo Science Slam è il Nuovo Modo di Comunicare la Scienza"

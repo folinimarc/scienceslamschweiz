@@ -13,8 +13,8 @@ events_and_organisers:
     card_1:
         title: "Upcoming Events"
         img:
-            path: "content/img/9_scsl_kishan.jpg"
-            alt: "The winner of the 9th Science Slam Zurich Kishan Thodkar."
+            path: "content/img/9_scsl_finalistinnen.jpg"
+            alt: "The slammers Lisa Felsenstein, Tanja Dallafior, and Jasmin Barman-Aksözen (from left to right) eagerly await to find out who from their block will advance to the final at the 9th Science Slam Zurich."
             classes: "img-fluid"
     card_2:
         title: "Where Science Slam Comes to Life"
@@ -29,8 +29,8 @@ scienceslam:
         title: "Science Slam is a Competition"
         text: "Several slammers compete against each other in a scientific short presentation tournament, where all aids are allowed. In the end, the audience decides on the champion of the evening."
         img: 
-            path: "content/img/9_scsl_finalistinnen.jpg"
-            alt: "The slammers Lisa Felsenstein, Tanja Dallafior, and Jasmin Barman-Aksözen (from left to right) eagerly await to find out who from their block will advance to the final at the 9th Science Slam Zurich."
+            path: "content/img/9_scsl_kishan.jpg"
+            alt: "The winner of the 9th Science Slam Zurich Kishan Thodkar."
             classes: "img-fluid"
     card_2: 
         title: "Science Slam is the New Way of Science Communication"
