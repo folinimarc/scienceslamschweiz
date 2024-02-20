@@ -29,8 +29,8 @@ def main():
         # Modify data in-place to add a key img_html for each specified image. Ugly wbut works for now.
         process_images_and_generate_html(data, './output/static/img', [320, 480, 640, 768, 992, 1200, 1400, 1600, 1920], html_output)
         
-         # Add timestamp of today in format dd.mm.yy
-        data['processed_asof'] = datetime.now().strftime('%d.%m.%y')
+         # Add timestamp of today in format dd.mm.yy HH:MM:SS
+        data['processed_asof'] = datetime.now().strftime('%d.%m.%y %H:%M:%S')
 
         # Add language data
         data['language'] = {'current': p.stem, 'other_available': [l for l in languages if l != p.stem]}
