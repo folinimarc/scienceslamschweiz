@@ -1,1 +1,8 @@
+# MacOS system files
 **/.DS_Store
+
+# Render output directory
+/output
+
+# Secret files for local development
+**/*secret*
