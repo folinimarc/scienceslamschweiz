@@ -10,13 +10,13 @@ header:
         classes: "img-fluid"
         
 events_and_organisers:
-    card_1:
+    row_1:
         title: "Upcoming Events"
         img:
             path: "content/img/9_scsl_finalistinnen.jpg"
             alt: "The slammers Lisa Felsenstein, Tanja Dallafior, and Jasmin Barman-Aksözen (from left to right) eagerly await to find out who from their block will advance to the final at the 9th Science Slam Zurich."
             classes: "img-fluid"
-    card_2:
+    row_2:
         title: "Where Science Slam Comes to Life"
         img:
             path: "content/img/6_scsl_oliver.jpg"
@@ -25,14 +25,14 @@ events_and_organisers:
 
 scienceslam:
     section_title: "What is Science Slam?"
-    card_1: 
+    row_1: 
         title: "Science Slam is a Competition"
         text: "Several slammers compete against each other in a scientific short presentation tournament, where all aids are allowed. In the end, the audience decides on the champion of the evening."
         img: 
             path: "content/img/9_scsl_kishan.jpg"
             alt: "The winner of the 9th Science Slam Zurich Kishan Thodkar."
             classes: "img-fluid"
-    card_2: 
+    row_2: 
         title: "Science Slam is the New Way of Science Communication"
         text: "A Science Slam is the ideal opportunity to engage with one's own subject area in a completely different way and to present fascinating concepts and ideas to an enthusiastic audience."
         img:
@@ -41,7 +41,7 @@ scienceslam:
             classes: "img-fluid"
 network:
     section_title: "Network Science Slam Switzerland"
-    card_1:
+    row_1:
         title: "Vision"
         text: "Our goal is to promote the culture of Science Slam in Switzerland by advocating for networking and exchange within the scene and beyond. Furthermore, we support slammers and organizers as needed and serve as the first point of contact for questions."
         img:

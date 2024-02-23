@@ -3,9 +3,28 @@ import os
 from pathlib import Path
 import tempfile
 from datetime import datetime
+import time
+import functools
+
+def retry(func):
+    """Retry an operation a few times before giving up."""
+    @functools.wraps(func)
+    def wrapped(*args, **kwargs):
+        max_attempts = 5
+        for attempt in range(max_attempts):
+            try:
+                return func(*args, **kwargs)
+            except Exception as e:
+                if attempt < max_attempts - 1:
+                    time.sleep(2**attempt)
+                else:
+                    raise e
+    return wrapped
 
 def _filter_events(events_data):
-    """Events must have a name and date-DD.MM.YY that is not in the past."""
+    """
+    Events must have a name and date-DD.MM.YY that is not in the past.
+    """
     valid = []
     for entry in events_data:
         if entry.get('name') and entry.get('date-DD.MM.YY'):
@@ -21,6 +40,7 @@ def _filter_organisers(organisers_data):
             valid.append(entry)
     return valid
 
+@retry
 def read_gsheet_data():
     # Get the credentials from the environment variable
     # If env variable not set, look for a local credentials file
