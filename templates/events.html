@@ -1,26 +1,28 @@
 <div class="row color-3 bg-color-3 mb-2">
     <div class="col-12 col-lg-6 p-0 position-relative">
-            {{events_and_organisers.card_1.img_html}}
+            {{events_and_organisers.row_1.img_html}}
         <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
-            <span class="color-2">{{events_and_organisers.card_1.img.alt}}</span>
+            <span class="color-2">{{events_and_organisers.row_1.img.alt}}</span>
         </div>
     </div>
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-lg-6 overflow-above-breakpoint">
         <div class="p-2">
-            <div class="fs-3 pb-3 fw-light fst-italic">{{events_and_organisers.card_1.title}}</div>
+            <div class="fs-3 pb-3 fw-light fst-italic">{{events_and_organisers.row_1.title}}</div>
             {% for e in events %}
-            <div class="mb-3 d-flex align-items-center">
-                <b>{{ e['date-DD.MM.YY'] }}</b>
-                {% if e.website %}
-                <a href="{{ e.website }}" target="_blank" class="link ms-3">{{ e.name }}</a>
-                {% else %}
-                <span class="ms-3">{{ e.name }}</span>
-                {% endif %}
-                {% if e.slammers_needed %}
-                <div class="ms-auto">
-                    <span class="ms-3 badge bg-dark">Looking for slammers</span>
+            <div class="mb-3 d-flex align-items-top">
+                <b class="me-3">{{ e['date-DD.MM.YY'] }}</b>
+                <div class="w-100">
+                    {% if e.website %}
+                    <a href="{{ e.website }}" target="_blank" class="link">{{ e.name }}</a>
+                    {% else %}
+                    <span>{{ e.name }}</span>
+                    {% endif %}
+                    {% if e.slammers_needed %}
+                    <div>
+                        <span class="badge bg-secondary">Slammers wanted</span>
+                    </div>
+                    {% endif %}
                 </div>
-                {% endif %}
             </div>
             {% endfor %}
         </div>

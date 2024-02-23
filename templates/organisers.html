@@ -1,13 +1,13 @@
 <div class="row color-3 bg-color-3 mb-2">
     <div class="col-12 col-lg-6 p-0 position-relative">
-            {{events_and_organisers.card_2.img_html}}
+            {{events_and_organisers.row_2.img_html}}
         <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
-            <span class="color-2">{{events_and_organisers.card_2.img.alt}}</span>
+            <span class="color-2">{{events_and_organisers.row_2.img.alt}}</span>
         </div>
     </div>
-    <div class="col-12 col-lg-6 order-lg-first">
+    <div class="col-12 col-lg-6 order-lg-first overflow-above-breakpoint">
         <div class="p-2">
-            <div class="fs-3 pb-3 fw-light fst-italic">{{events_and_organisers.card_2.title}}</div>
+            <div class="fs-3 pb-3 fw-light fst-italic">{{events_and_organisers.row_2.title}}</div>
             {% for o in organisers %}
             <div class="mb-3 d-flex align-items-center">
                 {% if o.website %}

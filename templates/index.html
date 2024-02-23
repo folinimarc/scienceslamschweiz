@@ -42,17 +42,17 @@
         <div class="row color-1 bg-color-2 py-3">
             <div id="header-logo" class="col-auto">
                 {{header.img_html}}
-            </div>
-            <div class="col ms-2 my-auto">
-                <div class="fs-3">{{head.title}}</div>
-                <div>
+                <div class="text-center">
                     {% for lang in language.other_available %}
-                        {% if loop.index0 > 0%}
-                        <span class="color-1"> | </span>
+                        {% if loop.index0 > 0 %}
+                        <small></small><span class="color-1"> | </span></small>
                         {% endif %}
-                        <a class="link" href="../{{lang}}/">{{lang|upper}}</a>
+                        <small><a class="link" href="../{{lang}}/">{{lang|upper}}</a></small>
                     {% endfor %}
                 </div>
+            </div>
+            <div class="col ms-2 my-auto">
+                <div class="fs-2">{{head.title}}</div>
             </div>
         </div>
     </div>
@@ -63,37 +63,37 @@
     </div>
 
     <!-- Section: What is science slam?  -->
-    <div class="fs-1 fst-italic fw-bold container-fluid color-2 bg-color-1 py-2 mb-2 text-center">
+    <div class="fs-1 fst-italic fw-bold container color-2 bg-color-1 py-2 mb-2 text-center">
         {{scienceslam.section_title}}
     </div>
 
     <div class="container">
         <div class="row color-3 bg-color-3 mb-2">
             <div class="col-12 col-lg-6 p-0 position-relative">
-                {{scienceslam.card_1.img_html}}
+                {{scienceslam.row_1.img_html}}
                 <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
-                    <span class="color-2">{{scienceslam.card_1.img.alt}}</span>
+                    <span class="color-2">{{scienceslam.row_1.img.alt}}</span>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 order-lg-first">
+            <div class="col-12 col-lg-6 order-lg-first overflow-above-breakpoint">
                 <div class="p-2">
-                    <div class="fs-3 pb-2 fw-light fst-italic">{{scienceslam.card_1.title}}</div>
-                    <div>{{scienceslam.card_1.text}}</div>
+                    <div class="fs-3 pb-2 fw-light fst-italic">{{scienceslam.row_1.title}}</div>
+                    <div>{{scienceslam.row_1.text}}</div>
                 </div>
             </div>
         </div>
 
         <div class="row color-3 bg-color-3 mb-2">
             <div class="col-12 col-lg-6 p-0 position-relative">
-                {{scienceslam.card_2.img_html}}
+                {{scienceslam.row_2.img_html}}
                 <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
-                    <span class="color-2">{{scienceslam.card_2.img.alt}}</span>
+                    <span class="color-2">{{scienceslam.row_2.img.alt}}</span>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 overflow-above-breakpoint">
                 <div class="p-2">
-                    <div class="fs-3 pb-2 fw-light fst-italic">{{scienceslam.card_2.title}}</div>
-                    <div>{{scienceslam.card_2.text}}</div>
+                    <div class="fs-3 pb-2 fw-light fst-italic">{{scienceslam.row_2.title}}</div>
+                    <div>{{scienceslam.row_2.text}}</div>
                 </div>
             </div>
         </div>
@@ -102,22 +102,22 @@
     </div>
 
     <!-- Section: Network  -->
-    <div class="fs-1 fst-italic fw-bold container-fluid color-2 bg-color-1 py-2 mb-2 text-center">
+    <div class="fs-1 fst-italic fw-bold container color-2 bg-color-1 py-2 mb-2 text-center">
         {{network.section_title}}
     </div>
 
     <div class="container">
         <div class="row color-3 bg-color-3 mb-2">
             <div class="col-12 col-lg-6 p-0 position-relative">
-                {{network.card_1.img_html}}
+                {{network.row_1.img_html}}
                 <div class="img-overlay position-absolute d-flex justify-content-center align-items-center p-3 w-100 h-100">
-                    <span class="color-2">{{network.card_1.img.alt}}</span>
+                    <span class="color-2">{{network.row_1.img.alt}}</span>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 overflow-above-breakpoint">
                 <div class="p-2">
-                    <div class="fs-3 pb-2 fw-light fst-italic">{{network.card_1.title}}</div>
-                    <div>{{network.card_1.text}}</div>
+                    <div class="fs-3 pb-2 fw-light fst-italic">{{network.row_1.title}}</div>
+                    <div>{{network.row_1.text}}</div>
                 </div>
             </div>
         </div>
@@ -126,8 +126,8 @@
     <!-- Footer -->
     <div class="container">
         <div class="row py-3 mb-2">
-            <div class="col-3"></div>
-            <div class="col-6 bg-color-2 text-center">
+            <div class="col-4"></div>
+            <div class="col-4 bg-color-2 text-center">
                 <a href="#topOfPage" class="link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
                         class="me-2 bi bi-chevron-double-up" viewBox="0 0 16 16">
@@ -138,8 +138,8 @@
                     </svg>
                 </a>
             </div>
-            <div class="col-3 p-0 my-auto text-end">
-                <button type="button" class="btn btn-sm btn-light bg-color-3" data-bs-toggle="popover" data-bs-content="Updated: {{ processed_asof }}<hr>This site does not make use of any cookies or tracking.<hr>scienceslamschweiz (at) gmail.com<hr>Marc Folini, Schlieren">Impressum</button>
+            <div class="col-4 pe-3 pe-md-0 my-auto text-end">
+                <button type="button" class="btn btn-sm btn-secondary" data-bs-toggle="popover" data-bs-content="Updated: {{ processed_asof }}<hr>This site does not make use of any cookies or tracking.<hr>scienceslamschweiz (at) gmail.com<hr>Marc Folini, Schlieren">Impressum</button>
             </div>
         </div>
     </div>

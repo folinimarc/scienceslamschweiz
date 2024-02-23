@@ -21,7 +21,7 @@ def main():
         with open(p, 'r') as f:
             data = yaml.safe_load(f)
 
-        # Add events and organisers data
+        # Add events and organisers data.
         data['events'] = events_data
         data['organisers'] = organisers_data
 
