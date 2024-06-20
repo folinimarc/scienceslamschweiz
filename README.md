@@ -1,2 +1,2 @@
-# scienceslamschweiz
-Repository for website of Science Slam Schweiz
+# WIP scienceslamschweiz
+Repository for website of Science Slam Schweiz.
