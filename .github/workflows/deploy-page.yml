@@ -2,9 +2,9 @@
 name: Deploy static content to Pages
 
 on:
-  # Trigger daily at a specific time
+  # Trigger daily at 03:15
   schedule:
-    - cron: "0 * * * *"
+    - cron: "15 3 * * *"
     
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

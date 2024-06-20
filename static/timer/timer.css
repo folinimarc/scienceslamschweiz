@@ -1,0 +1,43 @@
+body{
+	text-align: center;
+	background: #000;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+#clockdiv{
+  padding-top: 4%;
+	font-family: Arial;
+	color: #FF3311;
+  font-weight:300;
+	text-align: center;
+}
+
+.paused {
+  padding: 2%;
+	background: #000;
+  display: inline-block;
+}
+
+.counting {
+  padding: 2%;
+	background: #000;
+  display: inline-block;
+}
+
+.blink1 {
+  padding: 2%;
+	background: #000;
+  display: inline-block;
+}
+
+.blink2 {
+  padding: 2%;
+	background: #000;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  font-size: 30vw;
+  background: #000;
+}
