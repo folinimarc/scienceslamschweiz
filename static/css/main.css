@@ -4,9 +4,7 @@
     --bg-color-3: #e3ebe8;
     --color-1: #f00000;
     --color-2: #fff;
-    --color-3: #000;
-    --link-color-1: #007bff;
-    --underline-color-1: #f00000;
+    --link-color-1: #000;
 }
 
 /*--- 
@@ -30,14 +28,6 @@ Color Utilities
 
 .color-2 {
     color: var(--color-2) !important;
-}
-
-.color-3 {
-    color: var(--color-3) !important;
-}
-
-.underline-color-1 {
-    border-bottom: 1px solid var(--underline-color-1) !important;
 }
 
 /*--- 

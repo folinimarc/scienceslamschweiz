@@ -33,7 +33,7 @@ def main():
         data['processed_asof'] = datetime.now().strftime('%d.%m.%y %H:%M:%S')
 
         # Add language data
-        data['language'] = {'current': p.stem, 'other_available': [l for l in languages if l != p.stem]}
+        data['language'] = {'current': p.stem, 'other_available': [l for l in sorted(languages) if l != p.stem]}
 
         # Render HTML and write the output to a file
         output = env.get_template('index.html').render(data)

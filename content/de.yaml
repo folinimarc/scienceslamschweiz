@@ -12,6 +12,9 @@ header:
 events_and_organisers:
     row_1:
         title: "Nächste Veranstaltungen"
+        list_empty: "Im Moment wissen wir von keiner geplanten Veranstaltung."
+        list_footer: "Fehlt ein Science Slam? Dann schreib uns an scienceslamschweiz (at) gmail.com!"
+        slammers_wanted: "SlammerInnen gesucht!"
         img:
             path: "content/img/9_scsl_finalistinnen.jpg"
             alt: "Die Slammerinnen Lisa Felsenstein, Tanja Dallafior und Jasmin Barman-Aksözen (v.l.n.r) warten am 9. Science Slam Zürich gespannt darauf, wer von ihrem Block ins Finale einziehen darf."
