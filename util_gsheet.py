@@ -28,7 +28,7 @@ def _filter_events(events_data):
     valid = []
     for entry in events_data:
         if entry.get('name') and entry.get('date-DD.MM.YY'):
-            if datetime.strptime(entry.get('date-DD.MM.YY'), '%d.%m.%y') >= datetime.now():
+            if datetime.strptime(entry.get('date-DD.MM.YY'), '%d.%m.%y').date() >= datetime.now().date():
                 valid.append(entry)
     return valid
 
