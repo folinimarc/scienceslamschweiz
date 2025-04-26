@@ -46,8 +46,15 @@ network:
     section_title: "Réseau Science Slam Suisse"
     row_1:
         title: "Vision"
-        text: "Notre objectif est de promouvoir la culture du Science Slam en Suisse en plaidant pour la mise en réseau et l'échange au sein de la scène et au-delà. De plus, nous soutenons les slammeurs et les organisateurs selon les besoins et servons de premier point de contact pour les questions."
+        text: "Notre objectif est de promouvoir la culture du Science Slam en Suisse en plaidant pour la mise en réseau et l'échange au sein de la scène et au-delà. De plus, nous soutenons les slammeurs et les organisateurs selon les besoins et servons de premier point de contact pour les questions: scienceslamschweiz (at) gmail.com"
         img:
             path: "content/img/8_scsl_lineup.jpg"
             alt: "La fantastique programmation du 8ème Science Slam Zurich a enchanté le public et rendu la soirée inoubliable!"
+            classes: "img-fluid"
+    row_2:
+        title: "Qui est derrière le réseau?"
+        text: "Mike Morari adore explorer la frontière entre science-fiction et réalité scientifique. Il a animé et participé à des shows dans plusieurs pays et a remporté la première place au Championnat Européen de Science Slam. Discutez avec lui de pieuvres, de flamants roses et de jeux de société !<br><br>Marc Folini est un scientifique environnemental passionné de communication scientifique. Il participe au Science Slam depuis 2012 et aime l'ambiance inspirante et détendue de ces événements, que ce soit en tant que modérateur ou avec sa guitare sur scène."
+        img:
+            path: "content/img/mike_sclsl_winterthur.jpg"
+            alt: "Mike Morari explique comment une pieuvre peut goûter avec ses bras."
             classes: "img-fluid"

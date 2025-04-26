@@ -46,8 +46,15 @@ network:
     section_title: "Rete Science Slam Svizzera"
     row_1:
         title: "Visione"
-        text: "Il nostro obiettivo è promuovere la cultura dello Science Slam in Svizzera favorendo la rete e lo scambio all'interno della scena e oltre. Inoltre, supportiamo gli slammer e gli organizzatori a seconda delle necessità e fungiamo da primo punto di contatto per le domande."
+        text: "Il nostro obiettivo è promuovere la cultura dello Science Slam in Svizzera favorendo la rete e lo scambio all'interno della scena e oltre. Inoltre, supportiamo gli slammer e gli organizzatori a seconda delle necessità e fungiamo da primo punto di contatto per le domande: scienceslamschweiz (at) gmail.com"
         img:
             path: "content/img/8_scsl_lineup.jpg"
             alt: "Il fantastico lineup dell'8° Science Slam Zurigo ha entusiasmato il pubblico e reso la serata indimenticabile!"
+            classes: "img-fluid"
+    row_2:
+        title: "Chi c'è dietro la rete?"
+        text: "Mike Morari ama esplorare il confine tra fantascienza e realtà scientifica. Ha partecipato e condotto spettacoli in diversi paesi, vincendo il primo posto al Campionato Europeo di Science Slam. Parla con lui di polpi, fenicotteri e giochi da tavolo!<br><br>Marc Folini è un ambientalista appassionato di comunicazione scientifica. È coinvolto nel Science Slam dal 2012 e adora l'atmosfera ispiratrice e rilassata di questi eventi, sia come moderatore che suonando la chitarra sul palco."
+        img:
+            path: "content/img/mike_sclsl_winterthur.jpg"
+            alt: "Mike Morari spiega come un polpo può assaporare con le sue braccia."
             classes: "img-fluid"

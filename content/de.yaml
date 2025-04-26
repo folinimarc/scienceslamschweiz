@@ -46,10 +46,17 @@ network:
     section_title: "Netzwerk Science Slam Schweiz"
     row_1:
         title: "Vision"
-        text: "Unser Ziel ist es, die Science Slam Kultur in der Schweiz zu fördern, indem wir uns für die Vernetzung und den Austausch innerhalb der Szene und darüber hinaus einsetzen. Zudem unterstützen wir SlammerInnen und OrganisatorInnen nach Bedarf und stehen als erste Anlaufstelle für Fragen zur Verfügung."
+        text: "Unser Ziel ist es, die Science Slam Kultur in der Schweiz zu fördern, indem wir uns für die Vernetzung und den Austausch innerhalb der Szene und darüber hinaus einsetzen. Zudem unterstützen wir SlammerInnen und OrganisatorInnen nach Bedarf und stehen als erste Anlaufstelle für Fragen zur Verfügung: scienceslamschweiz (at) gmail.com"
         img:
             path: "content/img/8_scsl_lineup.jpg"
             alt: "Das fantastische Line-Up am 8. Science Slam Zürich begeisterte die Zuschauer und machte den Abend unvergesslich!"
+            classes: "img-fluid"
+    row_2:
+        title: "Die Köpfe hinter dem Netzwerk"
+        text: "Mike Morari liebt es zu erforschen, wo Science-Fiction zur Wissenschaft wird. Er hat Slam-Veranstaltungen in mehreren Ländern moderiert und gewonnen und ist 1. Platz Gewinner der Science Slam Europameisterschaft. Sprich mit ihm über Oktopusse, Flamingos und Brettspiele!<br><br>Marc Folini ist Umweltwissenschaftler mit einer Leidenschaft für Wissenschaftskommunikation. Seit 2012 ist er beim Science Slam aktiv und liebt die inspirierende und entspannte Atmosphäre dieser Veranstaltungen, sei es als Moderator oder mit seiner Gitarre auf der Bühne."
+        img:
+            path: "content/img/mike_sclsl_winterthur.jpg"
+            alt: "Mike Morari erklärt wie ein Oktopus mit seinen Armen schmecken kann."
             classes: "img-fluid"
 
 
