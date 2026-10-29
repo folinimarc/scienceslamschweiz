@@ -23,14 +23,14 @@ def retry(func):
 
 def _filter_events(events_data):
     """
-    Events must have a name and date-DD.MM.YY that is not in the past.
+    Return named, upcoming events ordered by date, most recent first.
     """
     valid = []
     for entry in events_data:
         if entry.get('name') and entry.get('date-DD.MM.YY'):
             if datetime.strptime(entry.get('date-DD.MM.YY'), '%d.%m.%y').date() >= datetime.now().date():
                 valid.append(entry)
-    return valid
+    return sorted(valid, key=lambda entry: datetime.strptime(entry['date-DD.MM.YY'], '%d.%m.%y'), reverse=True)
 
 def _filter_organisers(organisers_data):
     """Organisers must have a name."""
