@@ -23,14 +23,15 @@ def retry(func):
 
 def _filter_events(events_data):
     """
-    Return named, upcoming events ordered by date, most recent first.
+    Return named, upcoming events by descending date, with undated events last.
     """
     valid = []
     for entry in events_data:
-        if entry.get('name') and entry.get('date-DD.MM.YY'):
-            if datetime.strptime(entry.get('date-DD.MM.YY'), '%d.%m.%y').date() >= datetime.now().date():
+        if entry.get('name'):
+            date = entry.get('date-DD.MM.YY')
+            if not date or datetime.strptime(date, '%d.%m.%y').date() >= datetime.now().date():
                 valid.append(entry)
-    return sorted(valid, key=lambda entry: datetime.strptime(entry['date-DD.MM.YY'], '%d.%m.%y'), reverse=True)
+    return sorted(valid, key=lambda entry: datetime.strptime(entry['date-DD.MM.YY'], '%d.%m.%y') if entry.get('date-DD.MM.YY') else datetime.min, reverse=True)
 
 def _filter_organisers(organisers_data):
     """Organisers must have a name."""

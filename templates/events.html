@@ -10,7 +10,7 @@
             <div class="fs-3 pb-3 fw-light fst-italic">{{events_and_organisers.row_1.title}}</div>
             {% for e in events %}
             <div class="mb-3 d-flex align-items-top">
-                <b class="me-3">{{ e['date-DD.MM.YY'] }}</b>
+                <b class="me-3">{{ e.get('date-DD.MM.YY') or events_and_organisers.row_1.coming_soon }}</b>
                 <div class="w-100">
                     {% if e.url_event_website %}
                     <b>
