@@ -39,6 +39,10 @@ Other Utlities
     fill: var(--link-color-1) !important;
 }
 
+.event-date {
+    flex: 0 0 6rem;
+}
+
 /*--- 
 Header logo
 ---*/
