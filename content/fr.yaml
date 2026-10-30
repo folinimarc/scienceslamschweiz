@@ -12,7 +12,7 @@ header:
 events_and_organisers:
     row_1:
         title: "Prochains Événements"
-        coming_soon: "Bientôt"
+        coming_soon: "À venir"
         list_empty: "Pour le moment, nous ne connaissons aucun événement prévu."
         list_footer: "Un Science Slam manque-t-il? Alors écrivez-nous à scienceslamschweiz (at) gmail.com!"
         slammers_wanted: "Slameurs et slameuses recherchés!"
